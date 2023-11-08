@@ -21,3 +21,19 @@ To build a Generative Adversarial Network (GAN) and use it to generate high reso
    - The above requirement is done in the Model B notebook, images were generated into a ./srgan-images directory from the Generating 128x128 Images notebook.
 6. Compare the performance of both models using different metrics such as F1, Accuracy, AUC.
    - Performance_result notebook shows the compasrion of both models.
+  
+   # How to use the models:
+   - The following steps shows how to use the models.
+   A. Run the Model A notebook, it will save the figures into the ./figs directory.
+   B. Run the SRGAN notebook to train and save the generator and discriminator models.
+   C. Run the Generating 128x128 Images notebook to generate the images for model B.
+   D. Run model B notebook it will save the figures into the ./figs directory.
+   E. Run the comparison notebook to view all the saved figures.
+
+# Further Explanation:
+About Directory: In each folder, for instance
+
+# References:
+1. https://www.kaggle.com/c/dogs-vs-cats/data
+2. https://www.kaggle.com/code/ahmadjaved097/using-transfer-learning-to-classify-cats-dogs
+3. https://medium.com/analytics-vidhya/implementing-srresnet-srgan-super-resolution-with-tensorflow-89900d2ec9b2
