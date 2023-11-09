@@ -18,9 +18,9 @@ To build a Generative Adversarial Network (GAN) and use it to generate high reso
  # How to use the models:
    - The following steps shows how to use the models.
      
-   A. Run the Model A notebook, it will save the figures into the ./figs directory.
+   A.First download the dataset from this link and add to directory.
    
-   B. Run the SRGAN notebook to train and save the generator and discriminator models.
+   B. Open Model A folder, them run
    
    C. Run the Generating 128x128 Images notebook to generate the images for model B.
 
@@ -29,7 +29,7 @@ To build a Generative Adversarial Network (GAN) and use it to generate high reso
    E. Run the comparison notebook to view all the saved figures.
 
 # Results:
-About Directory: In each folder, for instance
+
 
 # References:
 1. https://www.kaggle.com/c/dogs-vs-cats/data
